@@ -1,33 +1,33 @@
 <!-- Template -->
 <template>
   <div>
-    <div class="banner-home">
-      <h1>Home</h1>
+    <div class="banner-contact">
+      <h1>Contacto</h1>
     </div>
-    <div class="home container">
-      <Carousel />
+    <div class="contact container">
+      <Form />
     </div>
   </div>
 </template>
 
 <!-- Script -->
 <script>
-import Carousel from "@/components/Home/Carousel.vue";
+import Form from "@/components/Contact/Form.vue";
 export default {
-  name: "Home",
+  name: "Contact",
   components: {
-    Carousel,
+    Form,
   },
 };
 </script>
 
 <!-- Style -->
 <style lang="scss">
-.home {
+.contact {
   margin-bottom: 100px;
 }
-.banner-home {
-  background-image: url("../../src/assets/img/banner-huesito-verde.png");
+.banner-contact {
+  background-image: url("../../src/assets/img/banner-huesito-verde-azul.png");
   opacity: 0.8;
   color: #ffffff;
   padding: 20px;
